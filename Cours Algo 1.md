@@ -1,0 +1,94 @@
+- Algo ?
+	- - Toujours la meme chose
+	- Logigrame:
+		- Representation visuel: Representation claire et concise
+	Les variables:
+		- conteneur qui stocke des données
+		- un nom et une valeur
+		- Prend plusieurs types de valeurs (int, str, float, booléen)
+		- regles nom variable:
+		- pas de caractere spécial a part '_'
+		- pas d'espace
+		- ne pas commencer par un chiffre
+	- Creation de variable:
+		- exemple:
+			- prenom = (valeur)
+			- signe = : est une affection, declaration, initialisation
+	-camelCase:
+		- Coller les nom des variables et utilisé des majuscule a chaque nouveau mot.
+		- Exemple:
+			- monNom = "Demir"
+		- camelCase maintenant appellé : lowercamelCase
+	- PascalCase:
+		- - Nom de la varibales les deux mots coller mon une majuscule
+		- exemple:
+			- MonNom = "Demir"
+		- Maintenant appelé: upperCamelCase
+	-snake_case:
+		- Exemple:
+			- mon_nom = "Demir"
+	-kebab_case:
+		- Pas utilisé en programmation
+-Types de donnée (valeur):
+	- Intger/int
+		- exemple:
+			- -1
+			- -2
+			- 0
+			- 1
+			- 2
+	- Float (decimaux, nombre flottant):
+		- Exemple:
+			- 3.14
+			- 3.16
+	- String (chaine de caractere):
+		- -Exemple:
+			- "Une chaine de caractere"
+			- 'Une chaine de caractere'
+			- "Une 3 eme chaine de caractere"
+	- Booléen:
+		- True 
+		- False
+		- En base de donnée: 0 ou 1
+- Les operations pour les (int) et (float):
+	- Additions: +
+	- Multiplication: *
+	- Division Entiere: //
+	- Soustraction: -
+	- Division Nomale (Donne un resultat de type float): /
+	- Puissance: **
+- String:
+	- Concatenation: +
+	- Exemple:
+		- "idris" + "théo" = "idristhéo"
+		- multiplication:
+			- Exemple:
+				- A*4: AAAA
+- Bool:
+	- Operateur logique:
+		- and --> et
+		- or --> ou
+		- not --> non
+-Boucle for:
+	- Boucle le nombre de fois que l'on souhaite
+	- Boucle le nombre de fois en fonction de la longueur de la valeur
+	- exemple:
+		- for i in range(5):
+			- La variable i de la boucle for prend une valeur qui est la valeur recuperer dans l'ensembe sur la quel on boucle.
+-Boucle while:
+	- Boucle tant que la conditions est vraie
+Liste python:
+	- Peut contenir plusieurs valeurs
+		- Exemple:
+			- liste = ["idris", "theo", "lacrim"] 
+			- listePlusieursValeurs = ["idris", 10, True]
+		- Appeler une valeure dans la liste via son index:
+			- - liste[1]
+			- -"theo"
+Fonction:
+	- Utilisation de fonction en cas de taches repetitives:
+	- Une fonction permet d'être plus efficace au niveau du code
+	- exemple:
+		- def direBonjour(word):
+			- print(f"{word}")
+		-  direBonjour("Bonjour")

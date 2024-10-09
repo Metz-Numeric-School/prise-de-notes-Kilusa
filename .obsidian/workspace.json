@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Algo/Algo 10-09-2024.md",
+                "file": "Cours/Algo/Git 10-09-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Algo/Algo 10-09-2024.md",
+                "file": "Cours Algo 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ae5c4b9ad8be493",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gestion de parc informatique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf2cd880550d0e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gestion de parc informatique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c97e3ebb84e52c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours Cloud Computing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6854e7a1e655e64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours Cloud Computing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e41aecb3da8917e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours Juridique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c4d2dfe9a113d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anglais.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -98,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Algo/Algo 10-09-2024.md",
+                "file": "Anglais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Algo/Algo 10-09-2024.md",
+                "file": "Anglais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Algo/Algo 10-09-2024.md"
+                "file": "Anglais.md"
               }
             }
           }
@@ -159,13 +231,29 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "d9af30719e30d042",
+  "active": "4c4d2dfe9a113d56",
   "lastOpenFiles": [
+    "Cours Juridique.md",
+    "Anglais.md",
+    "Cours Cloud Computing.md",
+    "Gestion de parc informatique.md",
+    "Pasted image 20241008100802.png",
+    "Pasted image 20241008100643.png",
+    "Pasted image 20241008100601.png",
+    "Pasted image 20241008100432.png",
+    "Pasted image 20241008100159.png",
+    "Pasted image 20241008094627.png",
+    "Pasted image 20241008094520.png",
+    "Pasted image 20241008093841.png",
+    "Pasted image 20241008093742.png",
+    "Pasted image 20241008092313.png",
+    "Cours/Algo/Git 10-09-2024.md",
+    "Gestion de projet.md",
+    "Cours Algo 1.md",
+    "Algo - 2024-09-23.md",
     "Test.md",
     "README.md",
     "Cours/Module A/Séance 1.md",
-    "Cours/Algo/Algo 10-09-2024.md",
-    "Algo - 2024-09-23.md",
     "fonction.md",
     "Cours/Module A/Séance 2.md",
     "Veille/Ressources web.md",

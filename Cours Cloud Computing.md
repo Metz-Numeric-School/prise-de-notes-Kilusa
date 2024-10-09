@@ -1,0 +1,184 @@
+- - Cloud:
+	- Toute infrastrucutre stocké en ligne est du Cloud avec une tarification a l'utilisation
+	- Stockage ailleurs 
+	- Stockage hors local
+	- Cloud computing:
+		- C'est de le développement a la demande de:
+			- Calcule
+			- Stockage
+			- Base de donné
+			- Application
+	- Fournisseur de service cloud:
+		- 200 fournisseur existant exemple les plus connus:
+			- AWS (Amazon pour leurs propres service on sortit AWS, et pour les autres aussi)
+			- Azure (Developpeur 'Microsoft': Venu apres AWS. )
+			- Google (Developpeur 'Google': Derriere Azure)
+	- Reseau hybride:
+		- 50% Infra local
+		- 50% Infra en cloud
+- Cas de panne:
+	- Les fournisseur de service cloud sont responsable de leurs locaux, et de ll'electricité qui alimente le cloud
+	- Et nous nous somme respnonsable de quasiment tout:
+		- En cas de panne c'est nous qu'on est responsable
+		- Responsable de la sécurisation des données aussi
+- Iaas:
+	- Infrastructure as a service:
+	- Infrastructure en tant que matériel oblige le deploiement physique
+	- Plus de controle sur les ressources informatique
+		- Création d'infra en ligne et fournir cettre infra en tant que service au entreprise
+- Paas:
+	- Plateforme as a service:
+		- -Environnement de développement et fournir cette plateforme en tant que service au entreprise
+		- Environnement deja pret
+- Saas:
+	- Software as a service:
+	- Logiciel en tant que service
+	- Outils a distance de software exemple:
+		- Exemple:
+			- Office 360
+			- setforce
+		- Moins de controle sur les ressources informatique
+3 models de déploiments de cloud computing:
+	-1) Cloud:
+		- Rien chez moi tout est en ligne quelque part
+	- 2) Hybride:
+		- 50% en physique chez moi
+		- 50% dans le cloud
+	- 3) Sur site (Cloud Privé):
+		- Dans ma société chez nous on créer l'équivalent de AWS
+		- Cration de son propre datacenter chez soit
+Avantage du cloud computing:
+	- 1)
+		- Investissement en centre de donné basée sur les prévisions
+		- Paiement en fonction de la quantité consommé
+	- 2)
+		-  Economie D'echelle importants
+		- Un gros groupe comme AWS par exemple fournissent des services moins chere
+	- 3)
+		- Plus besoin de deviner ka capacité nécessaire
+		- Surestimation de la capacité du serveur
+		- Sous estimation de la capacité du serveur
+		- Mise a l'échelle à la demande
+			- En fonction de la demande que tu souhaite
+	- 4)
+		- Avantage
+		- Augmenter la vitesse et l'agilité
+			- Crétion de machine beaucoup plus rapidement en instantanné quasiement
+	- 5
+		- Ne plus depenser beaucoup d'argent pour le fonctionnement et la maintenance de centres de donnés.
+	- 6)
+		- Déploiement international en quelques secondes
+		- En un click le site ou service a fournir et directement sur site du client demandeur
+	- Déplacement d'un site a un autre qui est aussi un avantage du cloud
+Itroduction a AWS:
+	- Services Web:
+		- Un logiciel disponible sur internet utilisant un format normaliser pour la demande et la reponse d'une interaction d'API Tel que:
+			- Requete et reponse Web langage utilisé
+				- XML
+				- JSON
+		- AWS:
+			- Plateforms cloud sécurisé
+			- Fournis un acces a la demande
+			- Assure la fléxibilité
+		- AWS fournis Plusieurs types de services 
+		- Choix d'un service
+			- Depend de nos objectifs metier
+			- Et nos besoins technologique
+	3 moyens d'interagire avec AWS et ses services:
+		- AWS management console
+		- Interface en ligne de commande (AWS cli)
+			- Création de script pour l'automatisation
+		- Kit de developpement logiciel (SDK)
+- Service de calcule:
+	- Ce sont des machines virutel
+- Route53:
+	- Service DNS
+Migration vers le Cloud:
+	On peut migré avec le framework AWS CAF
+	-Framework d'adoption d'AWS CAF:
+		AWS CAF:
+			Fournit des conseills et bonnes pratiques
+			 Organiser en 6 perspective
+				 - Mise en avant des capctité commercial
+				 - Businesse perspective
+				 - People perspective
+				 - Gouvernance perspective
+				 - Perspective Plateforme
+				 - Perspective Sécurité
+				 - Perspective Opérations
+Conclusion:
+	 - Définir les differents types de modeles de cloud computing
+	 - AWS est plus économique que les centre de données traditionnel parce-que:
+		 - Les instances Amazon EC2 peuvent être lancées a la demande, lorsque cela est nécessaire
+Module2:
+	Couts du cloud et calcules:
+			- 3 facteurs de couts avec AWS
+				- Caclue
+				- Stockage 
+				- Transfere de données
+			-Mode de paiement AWS
+			- Payez ceux qu'on utilise
+				- Payer que les services qu'on utilise
+				- Sur site
+				- AWS
+			- Tarifs selon l'utilisation
+				- Economies
+				- Tarification progressive
+			- Payez moins au fur et a mseure qu'AWS evolue
+- Regions AWS
+	- Une zone aws est une zone géographique
+		- Chaque région AWS assure une redondance et une connectivité au réseau 
+		- Une region compose 2 zones de dispnibilité
+	- Choix d'une region
+		- Determiner la region
+securisation du reseau:
+	Outils utilisé:
+		- Firewall
+		- ACL (Permet de mettre des restriction sur les equipements réseau):
+			- Ce sont des ensembles de regles
+			- C'est comme un firewall un peut
+Service de calcule:
+	- Le service de calcule c'est des machines vairtuel
+	- Amazon Web service propose de nombreaux services de calcules:
+		- ![[Pasted image 20241008085758.png]]
+		- ec2 sont des machines virtuels
+- Amazon EC2:
+	- - Séléction d'une image AMI préinstaller (Exemple: ce sont des machines virutel deja créer pret a l'utilisation avec les systems d'exploitation que l'on souhaite):
+		- ![[Pasted image 20241008091406.png]]
+		- 
+	- Création d'une AMI (Amazon machine instance) par exemple:
+		- ![[Pasted image 20241008091915.png]]
+	- Slecection d'un type d'instance que l'on souhaite:
+		- Types d'instance Ec2 (Machine virutel) model 't':
+			- ![[Pasted image 20241008092144.png]]
+		- Plusieurs types d'instance pour des choix ou les taches que l'on fait:
+			- ![[Pasted image 20241008092313.png]]
+		- Choisir le placement ou l'on met les instance Ec2 (Machine virtuel):
+			- La bande passante varie selon le type d'instance
+			- Types de réseaux ameliorés:
+				- ENA: prend jusqu'a 100Gbits/s
+				- Interface VF intel 82599: prend jusqu'a 10Gbits/s
+		- Apres avoir crer la machine on la place dans un reseau pret concu:
+			- Definition des parametres réseau:
+				- ![[Pasted image 20241008093742.png]]
+			- Importance de script pour l'automatisation des machines des reseaux:
+				- ![[Pasted image 20241008093841.png]]
+			- Option de stockage Amazon EC2:
+				- Amazon EBS pour le typer de stockage pour l'instance
+				- ![[Pasted image 20241008094520.png]]
+				- ![[Pasted image 20241008094627.png]]
+		- Métrique = Mesurer des chose et recevoir un message d'alerte
+			- Service de conteneur:
+				- Balise = Alias
+					- Ajout de balise:
+						- ![[Pasted image 20241008100159.png]]
+					- Parametre des groupes de sécurité:
+						- ![[Pasted image 20241008100432.png]]
+						- LAncement d'une instance EC2 avec l'interface de ligne de commande AWS:
+							- ![[Pasted image 20241008100601.png]]
+					- Cycle de vie des instance Amazon EC2:
+						- ![[Pasted image 20241008100643.png]]
+					- Amazon Cloud Watch Permet de faire de la supervision de notre réseau Cloud:
+						- ![[Pasted image 20241008100802.png]]
+- PRTG, Dabix: Outil de supervision
+- 

@@ -1,0 +1,19 @@
+- premier outil:
+	- Tableau kanban (pancarte) (Utiliser trelo)
+	- Exemple:
+		- A faire          En Cours            Terminé
+		- ............            ................             ...............
+	- Cette technique évite l'effet tunnel
+	- Exemple serveur windows:
+			- Etre certain de ceux que l'ont fournis correspondent a la demande
+			- Prendre en compte:
+				- Combiens de temps vas ont mettre cela 
+				- Mettre une unité de temps derriere
+				- Demande trop complexe ou temps incalculable:
+					- Couper ces taches en plusieurs fractions 
+					- Les traiter un a un
+	- Fusioninvotory:
+		- Installation uniquement sur post client, et server:
+			- Objectifs:
+				- Chaquer demarrage le programme est demerrarer est fait un checklist, et monte jusqu'au GLPI
+				- 
